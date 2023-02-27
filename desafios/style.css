@@ -9,7 +9,7 @@ div{
     align-items: center;
     margin: auto;
     background-color: white;
-    min-width: 400px;
+    min-width: 350px;
     max-width: 1100px;
 
 }
@@ -66,7 +66,7 @@ header{
 }
 nav{
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
   background-color: #093a21;
   margin-left: -20px;
   
