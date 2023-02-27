@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de fonte com div</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        @font-face{
+        font-family:"Rats college";
+        src: url(Rats\ College.ttf) format(truetype);
+    }
+h1{
+    background-color: blueviolet;
+    text-align: center;
+}
+.cabeca{
+    font-family: "Rats college";
+}
+div{
+    color: #0b0b0a;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 2px 3px 20px #B7E600;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div:hover >p{
+    
+    background-color: rgb(60, 5, 79);
+    display: block;
+}
+:hover.teste01{
+    background-color: aqua;
+}
+:hover.teste{
+    
+    background-color: rgb(16, 180, 101);
+}
+:hover.teste2{
+    
+    background-color: rgb(129, 6, 224);
+}
+:hover.cabeca{
+    background-color:aqua;
+}
+div >p{
+   display: none;
+}
+:hover.paragrafo{
+    background-color: blue;
+}
+.paragrafo{
+    text-align: center;
+    width: 300px;
+}
+    </style>
+</head>
+<body>
+  <h1 class="cabeca">Teste de imagem</h1> 
+  <a href="Font02.html" alt="blabla " target="_blank"><div class="teste01">1</div></a>
+  <div class="teste">2</div>
+  <div class="teste2">3 <p>testando as coisas</p></div>
+  <p class="paragrafo">testando se da certo</p>
+  
+</body>
+</html>
