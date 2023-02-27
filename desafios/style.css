@@ -45,9 +45,7 @@ padding: 0px -20px 0px 0px;
 
 }
 header{
-    margin-left: -10px;
-    margin-top: 0px;
-    margin-right: 0px;
+   margin: auto;
     padding-top: 20px ;
     background-image: linear-gradient(to top ,#093a21,#175030f6,#228e32,#09661c7c);
     width: 100%;
