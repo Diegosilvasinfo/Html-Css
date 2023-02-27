@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body{
+    margin: 0px;
     background-image: linear-gradient(to top,#44dc86f6,#41a050,#72c4827c);
 }
 div{
@@ -44,7 +45,9 @@ padding: 0px -20px 0px 0px;
 
 }
 header{
-margin: -20px -8px 0px -8px;
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-right: 0px;
     padding-top: 20px ;
     background-image: linear-gradient(to top ,#093a21,#175030f6,#228e32,#09661c7c);
     width: 100%;
@@ -53,6 +56,9 @@ margin: -20px -8px 0px -8px;
     text-align: center;
     color: white;
     padding-bottom: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: -10px;
 }
 .centro1{
     text-align: center;
@@ -64,6 +70,8 @@ nav{
   padding-bottom: 10px;
   padding-left: 10px;
   background-color: #093a21;
+  margin-left: -20px;
+  
   
   
 }
