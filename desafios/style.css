@@ -47,6 +47,7 @@ header{
 margin: -20px -8px 0px -8px;
     padding-top: 20px ;
     background-image: linear-gradient(to top ,#093a21,#175030f6,#228e32,#09661c7c);
+    width: 100%;
 }
 .centro{
     text-align: center;
