@@ -1,0 +1,31 @@
+@charset "UTF-08";
+:root
+{
+--fonte-padrao: 'Herr Von Muellerhoff', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+body
+{
+
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+main
+{
+
+}
+
+footer
+{
+
+}
