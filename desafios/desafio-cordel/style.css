@@ -2,12 +2,21 @@
 :root
 {
 --fonte-padrao: 'Herr Von Muellerhoff', cursive;
+--fonte-padrao1: 'Sriracha';
 }
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@font-face
+{
+  font-family: 'Sriracha';
+  src: url('Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
 
 body
 {
-
+margin: 0px;
+margin-top: -105px;
+margin-bottom: -100px;
 }
 
 header
@@ -15,14 +24,47 @@ header
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--fonte-padrao);
-    font-weight: bolder;
     font-size: 3em;
+    margin: auto;
+    
+}
+
+header p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.titulo{
+    font-family: var(--fonte-padrao),sans-serif;
+    font-weight: 800;
+     margin-bottom: 0px;
+     font-size: 153px;
+}
+:hover.titulo{
+    text-decoration: underline;
+}
+.milton{
+    font-size: bold;
+    text-decoration: none;
+}
+:hover.milton{
+     text-decoration: underline;
+}
+
+.milton>a:visited{
+    text-decoration: none;
+    color: white;
 }
 
 main
 {
 
+}
+main p{
+    font-size: 53px;
+    line-height: 107.5px;
+    font-family: var(--fonte-padrao1);
+    margin-top: 0px;
 }
 
 footer
