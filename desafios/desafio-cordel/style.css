@@ -36,9 +36,15 @@ header p{
 
 .titulo{
     font-family: var(--fonte-padrao),sans-serif;
-    font-weight: 800;
+    font-weight: 10vh;
      margin-bottom: 0px;
-     font-size: 153px;
+     font-size: 10vw;
+     font-variant: small-caps;
+     text-align: center;
+     padding-top: 50px;
+}
+h1  p{
+    text-decoration: none;
 }
 :hover.titulo{
     text-decoration: underline;
