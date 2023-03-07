@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body
+        {
+            position:relative
+        }
+        table
+        {
+            position: relative;
+            width: 500px;
+            border-collapse: collapse;
+            
+        }
+        thead > tr > th
+        {
+            background-color: gray;
+            position: sticky;
+            top:-1px;
+            
+        }
+        caption
+        {
+            background-color: lightgray;
+            padding: 8px;
+        }
+        tr
+        {
+            padding: 10px;
+        }
+        th ,td
+        {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(3n)
+        {
+            background-color: lightgray;
+        }
+        tfoot
+        {
+            background-color: gray;
+        }
+        .num
+        {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<!--tbody > tr:nth-child(3n)   quantidade de linha 
+    tbody > tr:nth-child(even) zebrado impar
+    tbody > tr:nth-child(odd)  zebrado par-->
+    <table>
+        <caption>População Brasileira</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+            
+                
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td class="num">41 262 199</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">19 597 330</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526</td>
+                </tr>
+        </tbody>
+        <tfoot>
+                <tr>
+                    <th scope="row">Total da População</th>
+                    <th scope="row">266 483 200</th>
+                </tr>
+                
+        </tfoot>
+    </table>
+</body>
+</html>

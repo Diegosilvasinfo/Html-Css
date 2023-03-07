@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="p=t-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body
+        {
+            position: relative;
+            border: 1px solid black;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        table
+        {
+            min-width: 400px;
+            border-collapse: collapse;
+            align-items: center;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+    
+        }
+
+        td
+        {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .fundo
+        {
+            background-color: gray;
+
+        }
+
+        .fundo1
+        {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Minha primeira tabela</h1>
+
+        <!--Hierarquia de tabelas!
+
+            TABLE = tabela
+                TABLE ROW = Linha de tabela
+                    TABLE HEADER = Cabeçalho de tabela
+                    TABLE DATA =   Dados de tabela
+
+            -->
+    <table>
+        <tr>
+            <td>A1</td>
+            <td rowspan="2">B1</td>
+            <td rowspan="3">C1</td>
+        </tr>
+        <tr class="fundo">
+            <td>A2</td>
+        
+        </tr>
+
+        <tr>
+            <td colspan="2" rowspan="2">A3</td>
+            
+            
+          
+        </tr>
+        
+       
+
+       
+        
+    </table>
+    
+</body>
+</html>
