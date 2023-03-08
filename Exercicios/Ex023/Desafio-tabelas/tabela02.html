@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="p=t-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body
+        {
+            position: relative;
+            border: 1px solid black;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        table
+        {
+           
+            min-width: 400px;
+            align-items: center;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          text-align: center;
+    
+        }
+
+        td
+        {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .fundo
+        {
+            background-color: gray;
+
+        }
+
+        .fundo1
+        {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Minha primeira tabela</h1>
+
+        <!--Hierarquia de tabelas!
+
+            TABLE = tabela
+                TABLE ROW = Linha de tabela
+                    TABLE HEADER = Cabeçalho de tabela
+                    TABLE DATA =   Dados de tabela
+
+            -->
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+          
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+           
+        </tr>
+
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+           
+        </tr>
+
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+           
+        </tr>
+        <tr>
+            <td>13</td>
+            <td >14</td>
+            <td>15</td>
+            
+        </tr>
+        
+    </table>
+    
+</body>
+</html>

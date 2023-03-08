@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="p=t-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body
+        {
+            position: relative;
+            border: 1px solid black;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        table
+        {
+           
+            min-width: 400px;
+            align-items: center;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+    
+        }
+
+        td
+        {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .fundo
+        {
+            background-color: gray;
+
+        }
+
+        .fundo1
+        {
+            background-color: yellow;
+        }
+       .centro
+  {
+    text-align: center;
+  }
+
+    </style>
+</head>
+<body>
+
+    <h1>Minha primeira tabela</h1>
+
+        <!--Hierarquia de tabelas!
+
+            TABLE = tabela
+                TABLE ROW = Linha de tabela
+                    TABLE HEADER = Cabeçalho de tabela
+                    TABLE DATA =   Dados de tabela
+
+            -->
+    <table>
+        <tr>
+            <td colspan="4" class="centro">A</td>
+            <td rowspan="4" class="centro">B</td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="centro">C</td>
+            <td>D</td>
+            <td class="numero">E</td>
+            <td>F</td>
+           
+        </tr>
+
+        <tr>
+            
+            <td>G</td>
+            <td class="numero">H</td>
+            <td>I</td>
+            
+        </tr>
+
+        <tr>
+            
+            <td>J</td>
+            <td >L</td>
+            <td>M</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="4" class="centro">N</td>
+            
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
