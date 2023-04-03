@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Formulario</title>
+    <style>
+        body
+        {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+        }
+        #caixa-cadastro
+        {
+            padding: 20px;
+        }
+        #enviar
+        {
+            position: absolute;
+            display: block;
+    
+        }
+    </style>
+</head>
+<body>
+  <h1>Primeiro formulario feito por mim!</h1>  
+  <form action="arquivo.php" autocomplete="on" method="get">
+    <fieldset id="caixa-cadastro">
+            <legend>Dados Pessoais</legend>
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="name">
+        </p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" autocomplete="new-password">
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar" id="enviar">
+    </p>
+  </form>
+</body>
+</html>
