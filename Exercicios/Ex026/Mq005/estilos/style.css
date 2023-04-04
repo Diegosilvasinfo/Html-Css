@@ -12,7 +12,10 @@ body
 }
 header
 {
-    background-color: rgb(153, 153, 153);
+    height: 20vh;
+    background-image: url(../imagens/header/download1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 span#burguer
@@ -31,6 +34,7 @@ span#burguer
 }
 menu{
     display: none;
+    box-sizing: border-box;
 }
 header h1
 {
@@ -50,10 +54,16 @@ menu > ul > li >a
     text-align: center;
     border-top: 2px solid gray;
     color: white;
+    box-sizing: border-box;
 }
 menu > ul > li > a:hover
 {
     background-color: rgb(176, 175, 175);
+    border-top: rgb(176, 175, 175);
+}
+header > menu:hover 
+{
+    border-top: rgb(176, 175, 175);
 }
 main
 {
