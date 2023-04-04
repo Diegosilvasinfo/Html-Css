@@ -15,6 +15,23 @@ header
     background-color: rgb(153, 153, 153);
 
 }
+span#burguer
+{
+    background-color: rgb(63, 63, 63);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#burguer:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+menu{
+    display: none;
+}
 header h1
 {
     text-align: center;
