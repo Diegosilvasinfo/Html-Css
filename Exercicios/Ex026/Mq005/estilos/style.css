@@ -20,20 +20,25 @@ header
 span#burguer
 {
     height: 30px;
-    background-color: transparent;
-    display: inline-block;
-    color: black;
-    padding: 0px;
+    background-color: rgb(83, 83, 83);
+    display: block;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
 }
 #burguer:hover
 {
-    color: white;
+    color: black;
     cursor: pointer;
 }
 menu{
     display: inline-block;
     display: none;
     box-sizing: border-box;
+}
+#itens
+{
+    margin: 0px;
 }
 header h1
 {
@@ -49,6 +54,7 @@ menu > ul
 }
 menu > ul > li >a
 {
+    margin: 0px;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -59,8 +65,9 @@ menu > ul > li >a
 }
 menu > ul > li> a:hover
 {
+    box-sizing: border-box;
     background-color: rgb(176, 175, 175);
-    border-top: rgb(176, 175, 175);
+    
 }
 main
 {
