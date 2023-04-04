@@ -12,9 +12,12 @@ body
 }
 header
 {
+    background-color: #159da2;
     background-image: url(../imagens/header/download1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    background-position: center center;
+    
 
 }
 span#burguer
@@ -25,6 +28,7 @@ span#burguer
     color: white;
     text-align: center;
     box-sizing: border-box;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.484);
 }
 #burguer:hover
 {
@@ -39,6 +43,7 @@ menu{
 #itens
 {
     margin: 0px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.459);
 }
 header h1
 {
@@ -80,6 +85,7 @@ main
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.486);
 }
 article > h2
 {
