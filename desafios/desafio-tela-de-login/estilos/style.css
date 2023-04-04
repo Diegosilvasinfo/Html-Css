@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top,#347471,#5A2F7D);
+}
+
+main
+{
+    position:absolute;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main > section > form > fieldset
+{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+#login
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#bemvindo
+{
+    margin-bottom: 20px;
+}
+input
+{
+    width: 90vw;
+}
