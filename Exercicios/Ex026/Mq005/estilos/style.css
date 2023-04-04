@@ -29,6 +29,7 @@ span#burguer
     text-align: center;
     box-sizing: border-box;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.484);
+    border-radius: 0px 0px 5px 5px;
 }
 #burguer:hover
 {
