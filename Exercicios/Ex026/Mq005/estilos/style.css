@@ -12,7 +12,6 @@ body
 }
 header
 {
-    height: 20vh;
     background-image: url(../imagens/header/download1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +39,9 @@ header h1
 {
     text-align: center;
     padding: 10px;
+    padding-bottom: 60px;
+    color: black;
+    text-shadow: 1px 2px 2px white;
 }
 menu > ul
 {
