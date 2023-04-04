@@ -65,6 +65,8 @@ menu > ul > li >a
 }
 menu > ul > li> a:hover
 {
+    color: black;
+    transition: .5s;
     box-sizing: border-box;
     background-color: rgb(176, 175, 175);
     
