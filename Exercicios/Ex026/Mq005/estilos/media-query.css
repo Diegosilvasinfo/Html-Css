@@ -16,7 +16,7 @@
     menu 
     {
         display: block;
-        border: 0px solid black;
+        
     }
     menu > ul 
     {
@@ -35,6 +35,10 @@
     {
         max-width: 768px;
     }
+    #itens 
+   {
+        box-shadow: none;
+   }
 }
 @media screen and (min-width: 800px)
 {
@@ -52,5 +56,9 @@
    {
         color: white;
         text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.415) ;
+   }
+   #itens 
+   {
+        box-shadow: none;
    }
 }
