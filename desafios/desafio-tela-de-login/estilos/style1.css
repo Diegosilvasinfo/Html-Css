@@ -21,13 +21,14 @@ main
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    margin-top: -1px;
 }
 
 main > section > form 
 {
     padding: 30px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     max-width: 400px;
     padding-left: 10px;
     padding-right: 10px;
@@ -89,4 +90,23 @@ main > section > form
 .esquecii:hover
 {
     background-color: rgb(124, 124, 124);
+}
+main > section
+{
+    height: 400px;
+}
+
+
+.secao1
+{
+        border-radius: 20px 20px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        max-width: 450px;
+        height: 200px;
+        margin-bottom: 0px;
+}
+form
+{
+    margin-top: -4px;
 }
